@@ -1,5 +1,6 @@
 /* Basislayout */
 
+
 html, body {
     height: 100%;
     padding: 0;
@@ -41,8 +42,24 @@ img.zweefLinks {
     margin-right: 15px;
 }
 
+.rechts {
+    width: 60%;
+    float: right;
+    border: 2px solid black;
+    
+}
+
+.links {
+    width: 55%;
+    float: left;
+    border: 2px solid black;
+    padding: 2px;
+
+}
+
 .smalltext {
     font-size: 0.7em;
+    
 }
 
 a {

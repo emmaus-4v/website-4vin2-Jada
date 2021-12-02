@@ -4,9 +4,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color:tan;  
     
-    color: #303030;
+    color: #050505;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -15,6 +15,7 @@ main {
     margin: 0 auto;
     width: 700px;
     position: relative;
+    background-color:tan;
 }
 
 
@@ -24,14 +25,16 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(5, 5, 5);
     text-align: center;
 }
+
 
 
 footer {
     text-align: center;
     padding-bottom: 10px;
+    
 }
 
 
@@ -40,16 +43,18 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    border: 3px dotted black;
+    padding: 1px;
 }
 
 .rechts {
     width: 60%;
     float: right;
     border: 3px double black;
-    padding: 4px;
-    background-color: lightgreen;
+    padding: 5px;
+    background-color: lightblue;
     font-family:'Times New Roman', Times, serif;
-    margin-top: 23px;
+    margin-top: 15px;
    
     
 }
@@ -58,9 +63,10 @@ img.zweefLinks {
     width: 55%;
     float: left;
     border: 3px double black;
-    padding: 4px;
-    background-color: lightcyan;
+    padding: 5px;
+    background-color: lightsteelblue;
     font-family:'Times New Roman', Times, serif
+    
 
 }
 
@@ -84,7 +90,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #050505;
     overflow: hidden;
 }
 
@@ -105,7 +111,8 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(132, 102, 243);
+    border: 2px solid white;
 }
 
 

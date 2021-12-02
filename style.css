@@ -1,7 +1,16 @@
-/* Basislayout */
+/* Basisinstellingen */
+*
 
+
+/* Basislayout */
+* {
+    overflow:hidden; /* zorgt dat boz hoogte krijgt van wt erin zit */
+    box-sizing:border-box; /* zorgt dat padding en border binnen afmetgin van box vallen */
+    border: 2px solid red;
+}
 
 html, body {
+    overflow:visible;
     height: 100%;
     padding: 0;
     background-color:tan;  
@@ -34,6 +43,7 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+    
     
 }
 

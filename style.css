@@ -6,7 +6,7 @@
 * {
     overflow:hidden; /* zorgt dat boz hoogte krijgt van wt erin zit */
     box-sizing:border-box; /* zorgt dat padding en border binnen afmetgin van box vallen */
-    border: 2px solid red;
+    border: 2px solid re
 }
 
 html, body {
@@ -56,8 +56,7 @@ img.zweefLinks {
     padding: 1px;
 }
 
-p.text1 {
-    border:2px dotted black;
+p.text1 { 
     
 }
 

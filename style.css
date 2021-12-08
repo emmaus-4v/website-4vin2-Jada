@@ -57,7 +57,7 @@ img.zweefLinks {
 }
 
 p.text1 { 
-    
+    border: 3px double black;
 }
 
 .plaatje {

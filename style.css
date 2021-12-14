@@ -50,41 +50,62 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+    float: right;
+    margin-right: 6px;
+    margin-top: 5px;
     border: 3px dotted black;
     padding: 1px;
+    width: 240px;
+    
+    
 }
 
 p.text1 { 
     border: 3px double black;
+    padding: 4px;
+    background-color:rgb(142, 214, 190);
+    width:60%;
+    float:none;
+    margin-top:5px;
+    margin-left:20px;
+    text-align:center;
 }
 
 .plaatje {
     float: left;
     margin-top: 7px;
     margin-left:8px;
-    overflow:hidden;
     border: 3px dotted black;
     width: 250px;
+}
+
+.plaatje2 {
+    float: right;
+    overflow:auto;
+    margin-top:-285px;
+    margin-bottom:60px;
+    margin-right:3px;
+    border: 3px dotted black;
+    width: 285px;
 }
 
 .rechts {
     width: 60%;
     float: right;
     border: 3px double black;
-    padding: 5px;
+    padding: 4px;
     background-color: lightblue;
     font-family:'Times New Roman', Times, serif;
     margin-top: 15px;
-    
+    margin-right:5px;
 }
+
 
 .links {
     width: 55%;
-    float: left;
+    float:left;
     border: 3px double black;
-    padding: 5px;
+    padding: 4px;
     background-color: lightsteelblue;
     font-family:'Times New Roman', Times, serif;
     margin-bottom: 2px;
@@ -100,8 +121,9 @@ p.text1 {
 }
 
 a {
-    color: skyblue;
-    text-decoration: none;
+    color: red;
+    text-decoration:underline;
+    font-weight:bold;
 }
 
 a:hover {

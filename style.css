@@ -84,17 +84,26 @@ p.text1 {
 }
 
 /* CSS voor de subpaginas */
-.plaatje {
+.plaatjelinks {
     float: left;
     margin-top: 7px;
     margin-left:15px;
     width: 250px;
 }
 
-.plaatje2 {
+.plaatjerechts {
     float: right;
     overflow:auto;
     margin-top:-325px;
+    margin-bottom:30px;
+    margin-right:15px;
+    width: 240px;
+}
+
+.plaatjebackup {
+    float: right;
+    overflow:auto;
+    margin-top:-180px;
     margin-bottom:30px;
     margin-right:15px;
     width: 240px;

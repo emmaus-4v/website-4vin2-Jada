@@ -19,6 +19,8 @@ html, body {
 }
 
 
+
+
 main {
     margin: 0 auto;
     width: 700px;
@@ -49,7 +51,7 @@ footer {
 
 /* specifieke stijlen */
 /* homepage */
-img.zweefLinks {
+img.zweeflinks {
     float: right;
     margin-right: 6px;
     margin-top: 5px;
@@ -63,7 +65,7 @@ p.text1 {
     background-color:rgb(142, 214, 190);
     width:60%;
     float:left;
-    margin-top:5px;
+    margin-top:10px;
     margin-left:20px;
     text-align:center;
 }
@@ -105,7 +107,7 @@ p.text1 {
     background-color: lightsteelblue;
     font-family:'Times New Roman', Times, serif;
     margin-bottom: 2px;
-    margin-top:5px;
+    margin-top:8px;
     margin-right:60px;
     margin-left: 5px;
 
